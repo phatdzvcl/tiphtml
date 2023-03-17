@@ -1,0 +1,19 @@
+<script>
+
+CSS.paintWorklet.addModule('./cssdb.js')
+
+</script>
+
+<style>
+
+main {
+
+--sql-query: SELECT name FROM test;
+
+background: paint(sql-db);
+
+}
+
+</style>
+
+HTML
